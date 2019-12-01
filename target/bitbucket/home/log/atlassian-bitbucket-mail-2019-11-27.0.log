@@ -1,0 +1,65 @@
+2019-11-27 16:30:38,269 INFO  [spring-startup]  bitbucket.mail-log Starting mail service
+2019-11-27 17:09:35,794 INFO  [spring-startup]  bitbucket.mail-log Starting mail service
+2019-11-27 17:11:53,675 INFO  [localhost-startStop-2]  bitbucket.mail-log Shutting down mail service
+2019-11-27 17:17:01,755 INFO  [spring-startup]  bitbucket.mail-log Starting mail service
+2019-11-27 17:19:28,033 INFO  [localhost-startStop-2]  bitbucket.mail-log Shutting down mail service
+2019-11-27 17:22:06,701 INFO  [spring-startup]  bitbucket.mail-log Starting mail service
+2019-11-27 17:26:12,574 INFO  [localhost-startStop-2]  bitbucket.mail-log Shutting down mail service
+2019-11-27 17:30:20,049 INFO  [spring-startup]  bitbucket.mail-log Starting mail service
+2019-11-27 17:34:30,901 INFO  [localhost-startStop-2]  bitbucket.mail-log Shutting down mail service
+2019-11-27 17:52:53,585 INFO  [spring-startup]  bitbucket.mail-log Starting mail service
+2019-11-27 18:02:20,723 INFO  [localhost-startStop-2]  bitbucket.mail-log Shutting down mail service
+2019-11-27 18:17:00,659 INFO  [spring-startup]  bitbucket.mail-log Starting mail service
+2019-11-27 18:25:39,784 INFO  [localhost-startStop-2]  bitbucket.mail-log Shutting down mail service
+2019-11-27 18:28:21,046 INFO  [spring-startup]  bitbucket.mail-log Starting mail service
+2019-11-27 18:30:39,704 INFO  [localhost-startStop-2]  bitbucket.mail-log Shutting down mail service
+2019-11-27 18:40:24,626 INFO  [spring-startup]  bitbucket.mail-log Starting mail service
+2019-11-27 18:46:37,144 INFO  [localhost-startStop-2]  bitbucket.mail-log Shutting down mail service
+2019-11-27 19:00:04,802 INFO  [spring-startup]  bitbucket.mail-log Starting mail service
+2019-11-27 19:02:25,919 INFO  [localhost-startStop-2]  bitbucket.mail-log Shutting down mail service
+2019-11-27 19:04:58,971 INFO  [spring-startup]  bitbucket.mail-log Starting mail service
+2019-11-27 19:07:08,703 INFO  [localhost-startStop-2]  bitbucket.mail-log Shutting down mail service
+2019-11-27 19:09:12,727 INFO  [spring-startup]  bitbucket.mail-log Starting mail service
+2019-11-27 19:14:00,736 INFO  [localhost-startStop-2]  bitbucket.mail-log Shutting down mail service
+2019-11-27 19:51:50,848 INFO  [spring-startup]  bitbucket.mail-log Starting mail service
+2019-11-27 19:54:11,567 INFO  [localhost-startStop-2]  bitbucket.mail-log Shutting down mail service
+2019-11-27 19:57:26,635 INFO  [spring-startup]  bitbucket.mail-log Starting mail service
+2019-11-27 20:01:12,907 INFO  [localhost-startStop-2]  bitbucket.mail-log Shutting down mail service
+2019-11-27 20:06:48,044 INFO  [spring-startup]  bitbucket.mail-log Starting mail service
+2019-11-27 20:23:00,832 INFO  [localhost-startStop-2]  bitbucket.mail-log Shutting down mail service
+2019-11-27 20:25:28,001 INFO  [spring-startup]  bitbucket.mail-log Starting mail service
+2019-11-27 20:27:09,548 INFO  [localhost-startStop-2]  bitbucket.mail-log Shutting down mail service
+2019-11-27 20:35:04,330 INFO  [spring-startup]  bitbucket.mail-log Starting mail service
+2019-11-27 20:39:52,289 INFO  [localhost-startStop-2]  bitbucket.mail-log Shutting down mail service
+2019-11-27 20:52:22,382 INFO  [spring-startup]  bitbucket.mail-log Starting mail service
+2019-11-27 20:54:47,370 INFO  [localhost-startStop-2]  bitbucket.mail-log Shutting down mail service
+2019-11-27 20:57:05,755 INFO  [spring-startup]  bitbucket.mail-log Starting mail service
+2019-11-27 21:01:17,636 INFO  [localhost-startStop-2]  bitbucket.mail-log Shutting down mail service
+2019-11-27 21:04:52,516 INFO  [spring-startup]  bitbucket.mail-log Starting mail service
+2019-11-27 21:07:50,565 INFO  [localhost-startStop-2]  bitbucket.mail-log Shutting down mail service
+2019-11-27 21:11:04,074 INFO  [spring-startup]  bitbucket.mail-log Starting mail service
+2019-11-27 21:14:02,208 INFO  [localhost-startStop-2]  bitbucket.mail-log Shutting down mail service
+2019-11-27 21:16:27,157 INFO  [spring-startup]  bitbucket.mail-log Starting mail service
+2019-11-27 21:23:43,102 INFO  [localhost-startStop-2]  bitbucket.mail-log Shutting down mail service
+2019-11-27 21:25:44,738 INFO  [spring-startup]  bitbucket.mail-log Starting mail service
+2019-11-27 21:28:03,476 INFO  [localhost-startStop-2]  bitbucket.mail-log Shutting down mail service
+2019-11-27 21:31:09,296 INFO  [spring-startup]  bitbucket.mail-log Starting mail service
+2019-11-27 21:35:02,124 INFO  [localhost-startStop-2]  bitbucket.mail-log Shutting down mail service
+2019-11-27 21:51:57,207 INFO  [spring-startup]  bitbucket.mail-log Starting mail service
+2019-11-27 21:55:41,212 INFO  [localhost-startStop-2]  bitbucket.mail-log Shutting down mail service
+2019-11-27 21:57:57,105 INFO  [spring-startup]  bitbucket.mail-log Starting mail service
+2019-11-27 22:01:02,291 INFO  [localhost-startStop-2]  bitbucket.mail-log Shutting down mail service
+2019-11-27 22:07:21,539 INFO  [spring-startup]  bitbucket.mail-log Starting mail service
+2019-11-27 22:17:43,516 INFO  [localhost-startStop-2]  bitbucket.mail-log Shutting down mail service
+2019-11-27 22:21:12,455 INFO  [spring-startup]  bitbucket.mail-log Starting mail service
+2019-11-27 22:27:37,776 INFO  [localhost-startStop-2]  bitbucket.mail-log Shutting down mail service
+2019-11-27 22:41:55,197 INFO  [spring-startup]  bitbucket.mail-log Starting mail service
+2019-11-27 22:47:30,004 INFO  [localhost-startStop-2]  bitbucket.mail-log Shutting down mail service
+2019-11-27 23:06:45,853 INFO  [spring-startup]  bitbucket.mail-log Starting mail service
+2019-11-27 23:11:10,213 INFO  [localhost-startStop-2]  bitbucket.mail-log Shutting down mail service
+2019-11-27 23:13:54,871 INFO  [spring-startup]  bitbucket.mail-log Starting mail service
+2019-11-27 23:20:58,523 INFO  [localhost-startStop-2]  bitbucket.mail-log Shutting down mail service
+2019-11-27 23:24:19,463 INFO  [spring-startup]  bitbucket.mail-log Starting mail service
+2019-11-27 23:28:54,391 INFO  [localhost-startStop-2]  bitbucket.mail-log Shutting down mail service
+2019-11-27 23:35:32,492 INFO  [spring-startup]  bitbucket.mail-log Starting mail service
+2019-11-27 23:46:59,421 INFO  [localhost-startStop-2]  bitbucket.mail-log Shutting down mail service

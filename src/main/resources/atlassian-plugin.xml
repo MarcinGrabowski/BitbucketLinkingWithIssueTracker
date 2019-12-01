@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<atlassian-plugin key="${atlassian.plugin.key}" name="${project.name}" plugins-version="2">
+	<plugin-info>
+		<description>${project.description}</description>
+		<version>${project.version}</version>
+		<vendor name="${project.organization.name}" url="${project.organization.url}" />
+		<param name="plugin-icon">images/pluginIcon.png</param>
+		<param name="plugin-logo">images/pluginLogo.png</param>
+	</plugin-info>
+	
+	<!-- add our i18n resource -->
+	<resource type="i18n" name="i18n" location="linking-with-issue-tracker" />
+	
+	<!-- add our web resources -->
+	<web-resource key="view-metadata" name="linking-with-issue-tracker Web Resources">
+		<dependency>com.atlassian.auiplugin:ajs</dependency>
+		<resource type="download" name="linking-with-issue-tracker.css" location="/css/linking-with-issue-tracker.css" />
+		<resource type="download" name="linking-with-issue-tracker.js" location="/js/linking-with-issue-tracker.js" />
+		<resource type="download" name="images/" location="/images" />
+		<context>page</context>
+	</web-resource>
+	
+	<client-resource key="template-soy" name="Project Soy Templates">
+    	<directory location="/templates/"/>
+        <dependency>pl.gnb.plugins.linking-with-issue-tracker:template-soy</dependency>
+	</client-resource>
+
+	<!-- Web items -->
+	<web-item key="project-settings-plugin-tab" name="Project settings navigation tab" section="bitbucket.project.settings.panel/project-settings-workflow-section" weight="20">
+		<label>Link with issue tracker</label>
+		<link>/plugins/servlet/linkwithissuetracker/project/${project.key}/settings</link>
+		<tooltip>Set up a connection to the issue tracker tool</tooltip>
+	</web-item>
+
+	<!-- Servlets -->
+	<servlet name="Project Servlet" i18n-name-key="project-servlet.name" key="project-servlet" class="pl.gnb.plugins.servlet.ProjectServlet">
+		<description key="project-servlet.description">The Project Servlet Plugin</description>
+		<url-pattern>/linkwithissuetracker/project/*</url-pattern>
+	</servlet>
+</atlassian-plugin>

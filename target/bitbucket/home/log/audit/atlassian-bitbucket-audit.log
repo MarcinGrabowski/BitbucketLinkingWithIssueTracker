@@ -1,0 +1,3 @@
+0:0:0:0:0:0:0:1 | ProjectPermissionGrantedEvent | admin | 1575034041731 | TEST | {"permission":"PROJECT_ADMIN","user":"admin"} | @TD8Q3Sx867x123x0 | o9tz4f
+0:0:0:0:0:0:0:1 | BranchModelConfigurationCreatedEvent | admin | 1575034041937 | TEST | {"development":{"refId":null,"useDefault":true},"types":[{"id":"BUGFIX","displayName":"BUGFIX","enabled":true,"prefix":"bugfix/"},{"id":"FEATURE","displayName":"FEATURE","enabled":true,"prefix":"feature/"},{"id":"HOTFIX","displayName":"HOTFIX","enabled":true,"prefix":"hotfix/"},{"id":"RELEASE","displayName":"RELEASE","enabled":true,"prefix":"release/"}],"scope":{"type":"PROJECT","resourceId":22}} | @TD8Q3Sx867x123x0 | o9tz4f
+0:0:0:0:0:0:0:1 | ProjectCreatedEvent | admin | 1575034042149 | TEST | - | @TD8Q3Sx867x123x0 | o9tz4f

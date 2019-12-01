@@ -1,0 +1,2 @@
+2019-11-29 14:00:18,721 INFO  [spring-startup]  bitbucket.mail-log Starting mail service
+2019-11-29 14:43:11,493 INFO  [localhost-startStop-2]  bitbucket.mail-log Shutting down mail service
