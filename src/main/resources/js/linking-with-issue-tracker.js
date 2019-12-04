@@ -1,1 +1,3 @@
-alert('test');
+(function($) {
+	console.log('test');
+}(AJS.$));

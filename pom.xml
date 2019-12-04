@@ -127,6 +127,21 @@
             <version>4.1.3</version>
             <scope>provided</scope>
         </dependency>
+
+        <!-- webresource-api brings in the SimpleUrlReadingCondition -->
+        <dependency>
+            <groupId>com.atlassian.plugins</groupId>
+            <artifactId>atlassian-plugins-webresource-api</artifactId>
+            <version>3.5.34</version>
+        </dependency>
+
+        <!-- webfragment brings in BaseCondition -->
+        <dependency>
+            <groupId>com.atlassian.plugins</groupId>
+            <artifactId>atlassian-plugins-webfragment</artifactId>
+            <version>4.1.0</version>
+            <scope>provided</scope>
+        </dependency>
     </dependencies>
     <build>
         <plugins>
@@ -151,7 +166,14 @@
                         <!-- Add package to export here -->
                         <Export-Package>pl.gnb.plugins.api,</Export-Package>
                         <!-- Add package import here -->
-                        <Import-Package>org.springframework.osgi.*;resolution:="optional", org.eclipse.gemini.blueprint.*;resolution:="optional", *</Import-Package>
+                        <Import-Package>
+							org.springframework.osgi.*;resolution:="optional",
+							org.eclipse.gemini.blueprint.*;resolution:="optional",
+                        	com.atlassian.plugin.web.*,
+                        	com.atlassian.plugin.web.baseconditions.*,
+                        	com.atlassian.bitbucket.web.conditions.*,
+							*
+						</Import-Package>
                         <!-- Ensure plugin is Spring powered -->
                         <Spring-Context>*</Spring-Context>
                     </instructions>

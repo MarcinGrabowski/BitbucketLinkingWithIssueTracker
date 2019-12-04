@@ -8,18 +8,6 @@
 		<param name="plugin-logo">images/pluginLogo.png</param>
 	</plugin-info>
 	
-	<!-- add our i18n resource -->
-	<resource type="i18n" name="i18n" location="linking-with-issue-tracker" />
-	
-	<!-- add our web resources -->
-	<web-resource key="view-metadata" name="linking-with-issue-tracker Web Resources">
-		<dependency>com.atlassian.auiplugin:ajs</dependency>
-		<resource type="download" name="linking-with-issue-tracker.css" location="/css/linking-with-issue-tracker.css" />
-		<resource type="download" name="linking-with-issue-tracker.js" location="/js/linking-with-issue-tracker.js" />
-		<resource type="download" name="images/" location="/images" />
-		<context>page</context>
-	</web-resource>
-	
 	<client-resource key="template-soy" name="Project Soy Templates">
     	<directory location="/templates/"/>
         <dependency>pl.gnb.plugins.linking-with-issue-tracker:template-soy</dependency>
@@ -37,4 +25,18 @@
 		<description key="project-servlet.description">The Project Servlet Plugin</description>
 		<url-pattern>/linkwithissuetracker/project/*</url-pattern>
 	</servlet>
+
+	<web-panel key="widget" name="Widget JS" location="bitbucket.head">
+        <context-provider class="pl.gnb.plugins.provider.PrivateWidgetsContextProvider" />
+		<context>bitbucket.page.repository.commits</context>
+		<context>bitbucket.page.repository.commit</context>
+		<resource type="soy" name="view" location="pl.gnb.plugins.linking-with-issue-tracker:template-soy/pl.gnb.plugins.widget" />
+		<dependency>${atlassian.plugin.key}:widget-js</dependency>
+	</web-panel>
+
+	<web-resource key="widget-js" name="JS for managing widgets">
+		<resource type="download" name="linking-with-issue-tracker.js" location="/js/linking-with-issue-tracker.js" />
+		<context>bitbucket.page.repository.commits</context>
+		<context>bitbucket.page.repository.commit</context>
+	</web-resource>
 </atlassian-plugin>
