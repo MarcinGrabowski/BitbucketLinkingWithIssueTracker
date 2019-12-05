@@ -10,6 +10,8 @@ import com.atlassian.plugin.spring.scanner.annotation.imports.ComponentImport;
 import com.atlassian.sal.api.pluginsettings.PluginSettings;
 import com.atlassian.sal.api.pluginsettings.PluginSettingsFactory;
 
+import com.atlassian.jira.project.browse.BrowseContext;
+
 import java.util.Map;
 
 import javax.inject.Inject;

@@ -26,10 +26,8 @@
 		<url-pattern>/linkwithissuetracker/project/*</url-pattern>
 	</servlet>
 
-	<web-panel key="widget" name="Widget JS" location="bitbucket.head">
+	<web-panel key="widget" name="Widget JS" location="bitbucket.web.repository.banner">
         <context-provider class="pl.gnb.plugins.provider.PrivateWidgetsContextProvider" />
-		<context>bitbucket.page.repository.commits</context>
-		<context>bitbucket.page.repository.commit</context>
 		<resource type="soy" name="view" location="pl.gnb.plugins.linking-with-issue-tracker:template-soy/pl.gnb.plugins.widget" />
 		<dependency>${atlassian.plugin.key}:widget-js</dependency>
 	</web-panel>
